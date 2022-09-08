@@ -1,6 +1,8 @@
-﻿namespace HAM.Classes
+﻿using HAM.Interfaces;
+
+namespace HAM.Classes
 {
-    class Molecule : Particle
+    class Molecule : Particle, IPartitionFunction, IEnergy, IHeatCapacity
     {
 
     }
