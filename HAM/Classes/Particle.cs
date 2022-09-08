@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HAM.Classes
+﻿namespace HAM.Classes
 {
-    class Particle
+    abstract class Particle
     {
+
     }
 }
