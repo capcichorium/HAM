@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿using HAM.Interfaces;
 namespace HAM.Classes
 {
-    class Particle
+    class Particle : IPartitionFunction, IEnergy, IHeatCapacity
     {
+
     }
 }
